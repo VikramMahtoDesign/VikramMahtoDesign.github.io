@@ -7,7 +7,7 @@ subtitle: "<span style='color: #0056b3; font-weight: bold;'>Mechanical Design En
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
  
 ---
 
