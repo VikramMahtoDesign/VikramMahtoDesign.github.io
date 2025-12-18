@@ -89,6 +89,20 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
 </div>
 
 
+<div class="mt-5 mb-5 p-4 text-center" style="background-color: white; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+  <h3 class="font-weight-bold">Let's Connect</h3>
+  <p class="text-muted">Open to opportunities in Mechanical Design & Automation.</p>
+  
+  <div class="mt-3">
+    <a href="mailto:your.email@example.com" class="btn btn-outline-primary mr-2" style="border-radius: 50px; padding: 10px 25px;">
+      <i class="fas fa-envelope"></i> Email Me
+    </a>
+    <a href="https://linkedin.com/in/yourprofile" class="btn btn-primary" style="border-radius: 50px; padding: 10px 25px;">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</div>
+
 <style>
   <style>
   /* 1. Background Colors */
@@ -108,7 +122,7 @@ I work on power transformer tank and external design (up to 765 kV),focusing on 
     
     /* Adjusts the main content wrapper to allow full width */
     article.post {
-      max-width: 100% !important;
+      max-width: 80% !important;
     }
   }
 
