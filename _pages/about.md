@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Mechanical Design Engineer</a>. 
+subtitle: <a>Mechanical Design Engineer</a>. 
 
 profile:
   align: right
@@ -13,7 +13,9 @@ profile:
 
 I work on power transformer tank and external design (up to 765 kV), 
 
-focusing on CAD automation, standardization, and technical drawings & documentation.
+focusing on CAD automation, standardization, and technical drawings &
+
+documentation.
 
 <div class="mt-5">
   <h3 style="border-bottom: 2px solid #5cb85c; display: inline-block; padding-bottom: 5px;">Tech Stack</h3>
@@ -88,12 +90,12 @@ focusing on CAD automation, standardization, and technical drawings & documentat
     </a>
   </div>
 
-</div>
+
 
 <style>
   /* 1. Make the background slightly grey to make cards pop */
   body {
-    background-color: #f8f9fa !important;
+    background-color: #e3e8ee !important;
   }
 
 
@@ -108,14 +110,14 @@ focusing on CAD automation, standardization, and technical drawings & documentat
     display: block;              /* Forces it to be on its own line above the name */
     font-size: 20px;             /* Size of the small text */
     font-weight: 400;            /* Normal font weight (not bold) */
-    color: #6c757d;              /* Grey color */
+    color: #e222d3;              /* Grey color */
     margin-bottom: 5px;          /* Space between this text and your name */
     line-height: 1.2;
   }
   /* 5. Move Profile Picture Up (Desktop Only) */
   @media (min-width: 1200px) {
     .profile {
-      margin-top: -240px !important; /* Pulls the image up. Increase/Decrease this number to fit. */
+      margin-top: -150px !important; /* Pulls the image up. Increase/Decrease this number to fit. */
       margin-right: 20px;            /* Adds a little space so it doesn't hit the scrollbar */
     }
   }
