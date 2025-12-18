@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span style="color: #0056b3; font-weight: bold;">Mechanical Design Engineer</span>. 
+subtitle: "<span style='color: #0056b3; font-weight: bold;'>Mechanical Design Engineer</span>"
 
 profile:
   align: right
