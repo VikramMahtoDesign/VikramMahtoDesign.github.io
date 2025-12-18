@@ -95,3 +95,26 @@ Technical Drawings & Documentations
 
 </div>
 
+<style>
+  /* 1. Make the background slightly grey to make cards pop */
+  body {
+    background-color: #f8f9fa !important;
+  }
+
+
+  /* 3. Dark Mode fix */
+  body.dark-mode {
+    background-color: #121212 !important;
+  }
+
+  /* 4. ADD THIS: "Hey there, I am" above your name */
+  h1.post-title::before {
+    content: "Hey there, I am";  /* The text you want to add */
+    display: block;              /* Forces it to be on its own line above the name */
+    font-size: 20px;             /* Size of the small text */
+    font-weight: 400;            /* Normal font weight (not bold) */
+    color: #6c757d;              /* Grey color */
+    margin-bottom: 5px;          /* Space between this text and your name */
+    line-height: 1.2;
+  }
+</style>
