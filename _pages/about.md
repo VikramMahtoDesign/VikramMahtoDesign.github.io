@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: "<span style='color: #0056b3; font-weight: bold;'>Mechanical Design Engineer</span>"
 
@@ -11,7 +11,7 @@ profile:
  
 ---
 
-I work on power transformer tank and external design (up to 765 kV),focusing on CAD automation, standardization, and technical drawings & documentation.
+I work on Power Transformer Tank and External Design (up to 765 kV), focusing on CAD automation, standardization, and technical drawings.
 
 <div class="mt-5">
   <h3 style="border-bottom: 2px solid #007bff;; display: inline-block; padding-bottom: 5px;">Tech Stack</h3>
