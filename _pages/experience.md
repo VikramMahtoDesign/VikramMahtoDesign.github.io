@@ -31,10 +31,10 @@ nav_order: 2
   /* --- B. HEADER COMPACT FIX --- */
   header.post-header {
     background-color: #eaf6ff; /* Light Blue */
-    padding: 20px !important;  /* Reduced Height (was 40px) */
+    padding: 17px !important;  /* Reduced Height (was 40px) */
     border-radius: 20px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: left;
   }
   
   header.post-header h1.post-title {
@@ -48,6 +48,48 @@ nav_order: 2
     display: none; 
   }
 </style>
+
+<div class="card mt-4 p-3 shadow-sm" style="border-radius: 8px; border: 1px solid #f0f0f0;">
+  <div class="card-body p-0">
+    
+    <div class="row align-items-center mb-3">
+      
+      <div class="col-md-8 d-flex align-items-center">
+        
+        <img src="{{ '/assets/img/Tbea.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain; margin-right: 15px;">
+        
+        <a href="https://www.cgglobal.com" target="_blank" style="text-decoration: none;">
+          <span style="color: #0056b3; font-weight: 700; letter-spacing: 0.5px; font-size: 18px;">CG Power and Industrial Solutions Limited.</span>
+        </a>
+      </div>
+      
+      <div class="col-md-4 text-md-right mt-2 mt-md-0">
+        <h5 class="mb-0" style="color: #6c757d; font-size: 16px; font-weight: 500;">Mechanical Design Engineer</h5>
+      </div>
+    </div>
+
+    <hr style="margin-top: 5px; margin-bottom: 15px; border-top: 1px solid #eaeaea;">
+
+    <ul style="font-size: 15px; color: #444; line-height: 1.6;">
+      <li>Designed <strong>Power Transformer Tanks</strong> and external assemblies (conservator, cooler bank, piping) using <strong>Creo Parametric</strong>.</li>
+      <li>Validated structural integrity by conducting <strong>Finite Element Analysis (FEA)</strong> for pressure, vacuum, lifting, and jacking load cases.</li>
+      <li>Generated detailed manufacturing drawings, BOMs, and cable wiring diagrams; managed ERP material ordering.</li>
+      <li>Ensured design compliance with international standards such as <strong>CBIP, CEA, and IEC</strong>.</li>
+      <li>Resolved shop floor and site issues by collaborating with vendors, Quality, and Marketing teams to ensure seamless project execution.</li>
+      <li><strong>Tools:</strong> Creo Parametric, AutoCAD, FEA Tools.</li>
+    </ul>
+
+    <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
+      <i class="fas fa-calendar-alt mr-2"></i> Dec 2025 - Present &nbsp;|&nbsp; 
+      <i class="fas fa-map-marker-alt mr-2 ml-2"></i> Bhopal, India
+    </div>
+
+  </div>
+</div>
+
+
+
+
 
 <div class="card mt-4 p-3 shadow-sm" style="border-radius: 8px; border: 1px solid #f0f0f0;">
   <div class="card-body p-0">
@@ -80,7 +122,7 @@ nav_order: 2
     </ul>
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
-      <i class="fas fa-calendar-alt mr-2"></i> July 2020 - Present &nbsp;|&nbsp; 
+      <i class="fas fa-calendar-alt mr-2"></i> July 2022 - Dec 2025 &nbsp;|&nbsp; 
       <i class="fas fa-map-marker-alt mr-2 ml-2"></i> Vadodara, India
     </div>
 
