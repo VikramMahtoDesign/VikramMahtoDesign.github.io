@@ -10,11 +10,12 @@ profile:
   image_circular: true # crops the image to make it circular
  
 ---
-I am a Mechanical Design Engineer specializing in power transformer tank design for voltage class upto 765kV. With expertise in Creo Parametric and Creo Customization, I focus on automating design processes using Creo Toolkit, Pro/PROGRAM, and API integration. I have extensive experience in CAD modeling, assembly design, and parametric modeling.
 
-Additionally, I have a strong background in structural simulations using ANSYS and Creo Simulate, enabling me to validate and optimize designs for real-world applications.
+Power Transformer Tank & External Design (up to 765 kV)
 
-Passionate about innovation and problem-solving, I continuously seek ways to enhance product development cycles through automation and advanced engineering techniques.
+CAD Automation & Standardization
+
+Technical Drawings & Documentations
 
 <div class="mt-5">
   <h3 style="border-bottom: 2px solid #5cb85c; display: inline-block; padding-bottom: 5px;">Tech Stack</h3>
@@ -85,7 +86,7 @@ Passionate about innovation and problem-solving, I continuously seek ways to enh
       <div class="card h-100 shadow-sm" style="border-radius: 15px; overflow: hidden; transition: transform 0.2s;">
         <img src="{{ '/assets/img/card_teaching.jpg' | relative_url }}" class="card-img-top" alt="Teaching" style="height: 150px; object-fit: cover;">
         <div class="card-body text-center p-3">
-          <h4 class="card-title font-weight-bold mb-0">Teaching</h4>
+          <h4 class="card-title font-weight-bold mb-0">Learning</h4>
           <p class="card-text text-muted small mt-1">Tutorials & Guides</p>
         </div>
       </div>
@@ -93,3 +94,12 @@ Passionate about innovation and problem-solving, I continuously seek ways to enh
   </div>
 
 </div>
+
+
+<style>
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1400px !important; /* Increases width on large screens */
+    }
+  }
+</style>
