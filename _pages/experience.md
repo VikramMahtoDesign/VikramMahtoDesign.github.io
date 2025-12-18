@@ -56,7 +56,7 @@ nav_order: 2
       
       <div class="col-md-8 d-flex align-items-center">
         
-        <img src="{{ '/assets/img/Tbea.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain; margin-right: 15px;">
+        <img src="{{ '/assets/img/CG.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain; margin-right: 15px;">
         
         <a href="https://www.cgglobal.com" target="_blank" style="text-decoration: none;">
           <span style="color: #0056b3; font-weight: 700; letter-spacing: 0.5px; font-size: 18px;">CG Power and Industrial Solutions Limited.</span>
