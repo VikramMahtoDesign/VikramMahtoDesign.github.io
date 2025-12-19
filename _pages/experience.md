@@ -57,7 +57,7 @@ nav_order: 1
       <div class="col-md-8 d-flex align-items-center">
         <a href="https://www.cgglobal.com" target="_blank" style="margin-right: 15px;">
         <img src="{{ '/assets/img/CG.jpg' | relative_url }}" alt="CG" style="height: 50px; width: auto; object-fit: contain; margin-right: 15px;">
-        
+         </a>
         <a href="https://www.cgglobal.com" target="_blank" style="text-decoration: none;">
           <span style="color: #0056b3; font-weight: 700; letter-spacing: 0.5px; font-size: 18px;">CG Power and Industrial Solutions Limited.</span>
         </a>
@@ -97,8 +97,10 @@ nav_order: 1
     <div class="row align-items-center mb-3">
       
       <div class="col-md-8 d-flex align-items-center">
+        
         <a href="https://www.tbeaindia.com" target="_blank" style="margin-right: 15px;">
-        <img src="{{ '/assets/img/Tbea.jpg' | relative_url }}" alt="TBEA" style="height: 50px; width: auto; object-fit: contain; margin-right: 15px;">
+          <img src="{{ '/assets/img/Tbea.jpg' | relative_url }}" alt="TBEA" style="height: 50px; width: auto; object-fit: contain;">
+        </a>
         
         <a href="https://www.tbeaindia.com" target="_blank" style="text-decoration: none;">
           <span style="color: #0056b3; font-weight: 700; letter-spacing: 0.5px; font-size: 18px;">TBEA Energy (India) Pvt. Ltd.</span>
@@ -122,7 +124,7 @@ nav_order: 1
     </ul>
 
     <div class="p-2 mt-3" style="background-color: #f8f9fa; border-radius: 5px; font-size: 13px; color: #6c757d;">
-      <i class="fas fa-calendar-alt mr-2"></i> July 2022 - Dec 2025 &nbsp;|&nbsp; 
+      <i class="fas fa-calendar-alt mr-2"></i> July 2020 - Present &nbsp;|&nbsp; 
       <i class="fas fa-map-marker-alt mr-2 ml-2"></i> Vadodara, India
     </div>
 
