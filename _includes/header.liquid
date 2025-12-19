@@ -132,4 +132,39 @@
                 
                 <span style="color: #6c757d; font-size: 15px; font-weight: 400; margin-right: 25px;">Search</span>
                 
-                <span>
+                <span style="
+                    background-color: #ffffff; 
+                    border: 1px solid #dee2e6; 
+                    border-radius: 4px; 
+                    padding: 1px 5px; 
+                    font-size: 11px; 
+                    color: #adb5bd; 
+                    font-family: inherit;
+                    line-height: 1.2;">
+                  CTRL K
+                </span>
+              </button>
+            </li>
+          {% endif %}
+
+          {% if site.enable_darkmode %}
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% if site.enable_progressbar %}
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  {% endif %}
+</header>
