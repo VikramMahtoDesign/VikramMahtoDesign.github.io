@@ -4,16 +4,20 @@ layout: default
 
 <style>
   .profile-blue-border {
-    border: 3px solid #007bff !important; /* The Signature Blue */
-    padding: 3px; /* Adds a small white gap between image and border for a clean look */
-    background-color: #fff; /* Ensures the gap is white */
+    border: 3px solid #007bff !important; /* Blue Border */
+    padding: 3px; /* White gap */
+    background-color: #fff;
+    
+    /* --- CONTROL THE SIZE HERE --- */
+    max-width: 150px;  /* <--- Change this number to make it bigger/smaller */
+    width: 100%;       /* Keeps it responsive */
   }
 </style>
 
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.last_name }}
+      <span class="font-weight-bold">{{ site.first_name }} {{ site.last_name }} </span>
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
@@ -29,6 +33,7 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-blue-border' %}
           {% endif %}
+          
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
           {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
         {% endif %}
