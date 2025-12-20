@@ -32,10 +32,10 @@ ninja.data = [{
           },
         },{id: "nav-learning",
           title: "Learning",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Technologies and tools I am currently exploring.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/learning/";
           },
         },{id: "post-a-post-with-plotly-js",
         
