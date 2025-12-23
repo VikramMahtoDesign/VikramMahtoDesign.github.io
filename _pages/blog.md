@@ -143,7 +143,7 @@ description: Thoughts on Engineering, Automation, and Life.
 <div class="row">
 
   <div class="col-md-4 mb-4">
-    <a href="#" style="text-decoration: none;">
+    <a href="{{ '/2024/01/15/lifting-analysis/' | relative_url }}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=600&q=80" alt="FEA">
