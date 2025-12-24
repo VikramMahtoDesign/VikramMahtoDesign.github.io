@@ -290,6 +290,72 @@ ninja.data = [{
             window.location.href = "/blog/2023/table-of-contents/";
           
         },
+      },{id: "post-placeholder-title",
+        
+          title: "Placeholder Title",
+        
+        description: "Content coming soon.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/creo-toolkit/";
+          
+        },
+      },{id: "post-placeholder-title",
+        
+          title: "Placeholder Title",
+        
+        description: "Content coming soon.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/austenitic-steel/";
+          
+        },
+      },{id: "post-placeholder-title",
+        
+          title: "Placeholder Title",
+        
+        description: "Content coming soon.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/charpy-test/";
+          
+        },
+      },{id: "post-placeholder-title",
+        
+          title: "Placeholder Title",
+        
+        description: "Content coming soon.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/roarks-formulas/";
+          
+        },
+      },{id: "post-placeholder-title",
+        
+          title: "Placeholder Title",
+        
+        description: "Content coming soon.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/conservator-design/";
+          
+        },
+      },{id: "post-placeholder-title",
+        
+          title: "Placeholder Title",
+        
+        description: "Content coming soon.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/iso-12944/";
+          
+        },
       },{id: "post-a-post-with-giscus-comments",
         
           title: "a post with giscus comments",
