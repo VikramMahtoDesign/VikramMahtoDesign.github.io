@@ -184,7 +184,7 @@ ninja.data = [{
         
           title: "Lifting Analysis of Transformer Tank Using Remote Points in ANSYS",
         
-        description: "A detailed guide on simulating lifting scenarios for heavy transformers.",
+        description: "A detailed guide on simulating suspended lifting scenarios for heavy transformer tanks using ANSYS Mechanical and Remote Points.",
         section: "Posts",
         handler: () => {
           
