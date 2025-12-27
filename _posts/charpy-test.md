@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Impact Test – Charpy V-Notch Test
-date: 2023-09-10 10:00:00
+date: 2023-09-10 
 permalink: /blog/charpy-test/
 description: Understanding material toughness, the Charpy V-Notch test method, and the Ductile-to-Brittle Transition Temperature (DBTT).
 tags: testing materials engineering
