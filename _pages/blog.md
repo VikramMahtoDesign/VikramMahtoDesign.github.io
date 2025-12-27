@@ -156,7 +156,7 @@ description: Thoughts on Engineering, Automation, and Life.
   </div>
 
   <div class="col-md-4 mb-4">
-    <a href="{% post_url 2023-11-20-austenitic-steel %}" style="text-decoration: none;">
+    <a href="{% post_url austenitic-steel %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
            <img src="{{ '/assets/img/steel.png' | relative_url }}" alt="Steel">
