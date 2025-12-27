@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/learning/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-why-isn-39-t-austenitic-stainless-steel-magnetic",
+        
+          title: "Why Isn&#39;t Austenitic Stainless Steel Magnetic?",
+        
+        description: "This puzzle reveals how atomic structure, crystal arrangement, and alloy chemistry create materials with unexpected properties.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/austenitic-steel/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -299,17 +310,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/creo-toolkit/";
-          
-        },
-      },{id: "post-placeholder-title",
-        
-          title: "Placeholder Title",
-        
-        description: "Content coming soon.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/austenitic-steel/";
           
         },
       },{id: "post-placeholder-title",
