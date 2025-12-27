@@ -301,6 +301,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/videos/";
           
         },
+      },{id: "post-iso-12944-1-amp-2-corrosion-protection-for-steel-structure",
+        
+          title: "ISO 12944-1 &amp; 2 - Corrosion Protection for Steel Structure",
+        
+        description: "A guide to the ISO 12944 standard, understanding corrosivity categories, and selecting the right paint systems for durability.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/iso-12944/";
+          
+        },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
         
           title: "displaying beautiful tables with Bootstrap Tables",
@@ -343,17 +354,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/conservator-design/";
-          
-        },
-      },{id: "post-placeholder-title",
-        
-          title: "Placeholder Title",
-        
-        description: "Content coming soon.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/iso-12944/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
