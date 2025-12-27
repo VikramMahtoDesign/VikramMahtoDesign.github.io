@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Impact Test – Charpy V-Notch Test
+date: 2023-09-10 10:00:00
 permalink: /blog/charpy-test/
 description: Understanding material toughness, the Charpy V-Notch test method, and the Ductile-to-Brittle Transition Temperature (DBTT).
 tags: testing materials engineering
@@ -25,6 +26,7 @@ Standards like IS 2062 (Hot Rolled Medium and High Tensile Structural Steel — 
 * A V-notch test piece is used, and the result is the arithmetic mean of three specimens taken side-by-side from the same product.
 
 **If the average of the three tests:**
+
 * Fails by ≤ 15% of the specified minimum — three additional test pieces are tested. The new average of all six results is considered.
 * The thickest section is tested first; if it passes, the entire cast is accepted. If it fails, progressively thinner sections are tested until a passing thickness is found.
 
@@ -40,23 +42,25 @@ The specimen is placed horizontally between two anvils on the testing machine, w
 ![Test Setup](/assets/img/charpy-test/03-test-setup.jpg)
 *Figure 3: Charpy Test Setup*
 
-* A weighted pendulum hammer is raised to a fixed initial height $h$, storing potential energy.
+* A weighted pendulum hammer is raised to a fixed initial height **h**, storing potential energy.
 * The notch acts as a stress concentrator, promoting fracture at a specific point.
-* After fracturing the specimen, the pendulum continues to swing upward to a reduced height $h'$.
-* The difference in height between the start $h$ and end $h'$ positions is used to calculate the energy absorbed by the specimen during fracture.
+* After fracturing the specimen, the pendulum continues to swing upward to a reduced height **h'**.
+* The difference in height between the start **h** and end **h'** positions is used to calculate the energy absorbed by the specimen during fracture.
 * The absorbed energy value provides a direct measure of the material’s impact toughness.
 
 ![Pendulum Action](/assets/img/charpy-test/04-pendulum-action.jpg)
 *Figure 4: Pendulum Mechanism*
 
 **Impact Energy Calculation:**
-$$\text{Impact Energy} = mgh - mgh'$$
+
+Impact Energy = mgh - mgh'
 
 Where:
-* $m$ = mass of the pendulum
-* $g$ = acceleration due to gravity
-* $h$ = initial height
-* $h'$ = height after breaking the specimen
+
+* **m** = mass of the pendulum
+* **g** = acceleration due to gravity
+* **h** = initial height
+* **h'** = height after breaking the specimen
 
 ## Ductile-to-Brittle Transition (DBTT)
 
@@ -88,6 +92,7 @@ For low-strength steels, the ductile-to-brittle transition temperature is influe
 In conclusion, the DBTT (Ductile-to-Brittle Transition Temperature) is an important factor to consider when choosing materials for applications where temperature matters. It's good to know that there are ways to adjust this transition point to fit the needs of the application. For example, changing the material by refining its grain size, reducing carbon content, or making its structure more uniform can help the material stay flexible at lower temperatures.
 
 ### References:
+
 1.  Material Science And Engineering An Introduction by William D. Callister , Jr. & David G. Rethwisch
 2.  IS 2062 : Hot Rolled Medium And High Tensile Structural Steel
 3.  IS 1757 (1988): Method for charpy impact test
