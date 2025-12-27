@@ -223,7 +223,7 @@ description: Thoughts on Engineering, Automation, and Life.
     <a href="{% post_url 2023-03-28-iso-12944 %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
-           <img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356?auto=format&fit=crop&w=600&q=80" alt="Paint">
+           <img src="{{ '/assets/img/iso-12944/preview.jpg' | relative_url }}" alt="Paint">
         </div>
         <div class="blog-body">
           <span class="blog-category">ISO Standards</span>
