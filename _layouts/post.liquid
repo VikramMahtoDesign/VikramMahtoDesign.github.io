@@ -2,16 +2,49 @@
 layout: default
 ---
 <style>
-  /* Force all images in the post to fit the width and look uniform */
+  /* --- 1. Fix Images to fit screen --- */
   article img {
-    width: 100%;            /* Forces image to take full width of container */
-    max-width: 100%;        /* Prevents it from going off-screen */
-    height: auto;           /* Maintains aspect ratio (doesn't stretch) */
-    border-radius: 8px;     /* Optional: Adds nice rounded corners */
-    margin-bottom: 20px;    /* Adds space below every image */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  /* --- 2. Fix Vertical Line (Blockquote) to BLUE --- */
+  blockquote {
+    border-left: 5px solid #007bff !important; /* Forces Blue Line */
+    padding-left: 20px;
+    margin-left: 0;
+    color: #555;
+    font-style: italic;
+    background-color: #f9f9f9;
+  }
+
+  /* --- 3. Fix Horizontal Scrolling Line (Progress Bar) to BLUE --- */
+  /* This targets the reading progress bar usually found in these themes */
+  progress {
+    color: #007bff !important;
+  }
+  
+  /* Chrome/Safari/Edge */
+  progress::-webkit-progress-value {
+    background-color: #007bff !important;
+  }
+  
+  /* Firefox */
+  progress::-moz-progress-bar {
+    background-color: #007bff !important;
+  }
+  
+  /* Fallback for other scrolling bar types */
+  .progress-bar {
+    background-color: #007bff !important;
   }
 </style>
+
+
 {% assign year = page.date | date: '%Y' %}
 {% assign tags = page.tags | join: '' %}
 {% assign categories = page.categories | join: '' %}
