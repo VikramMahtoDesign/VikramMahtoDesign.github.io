@@ -159,7 +159,7 @@ description: Thoughts on Engineering, Automation, and Life.
     <a href="{% post_url 2023-11-20-austenitic-steel %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
-           <img src="https://images.unsplash.com/photo-1535970793551-3b56795453b3?auto=format&fit=crop&w=600&q=80" alt="Steel">
+           <img src="{{ '/assets/img/steel.png' | relative_url }}" alt="Steel">
         </div>
         <div class="blog-body">
           <span class="blog-category">Materials</span>
