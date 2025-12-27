@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/plotly/";
           
         },
+      },{id: "post-lifting-analysis-of-transformer-tank-using-remote-points-in-ansys",
+        
+          title: "Lifting Analysis of Transformer Tank Using Remote Points in ANSYS",
+        
+        description: "A detailed guide on simulating suspended lifting scenarios for heavy transformer tanks using ANSYS Mechanical and Remote Points.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/lifting-analysis/";
+          
+        },
       },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
@@ -178,17 +189,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-lifting-analysis-of-transformer-tank-using-remote-points-in-ansys",
-        
-          title: "Lifting Analysis of Transformer Tank Using Remote Points in ANSYS",
-        
-        description: "A detailed guide on simulating suspended lifting scenarios for heavy transformer tanks using ANSYS Mechanical and Remote Points.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/lifting-analysis/";
           
         },
       },{id: "post-a-post-with-tikzjax",
