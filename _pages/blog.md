@@ -172,10 +172,10 @@ description: Thoughts on Engineering, Automation, and Life.
   </div>
 
   <div class="col-md-4 mb-4">
-    <a href="{% post_url 2023-09-10-charpy-test %}" style="text-decoration: none;">
+    <a href="{% post_url charpy-test %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
-           <img src="https://images.unsplash.com/photo-1576400806041-b93a0447a12b?auto=format&fit=crop&w=600&q=80" alt="Testing">
+           <img src="{{ '/assets/img/charpy-test/preview.jpg' | relative_url }}" alt="Impact Testing">
         </div>
         <div class="blog-body">
           <span class="blog-category">Testing</span>
