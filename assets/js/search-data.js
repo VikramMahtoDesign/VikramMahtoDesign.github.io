@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/learning/";
           },
-        },{id: "post-why-isn-39-t-austenitic-stainless-steel-magnetic",
+        },{id: "post-getting-started-with-creo-toolkit",
+        
+          title: "Getting Started with Creo Toolkit",
+        
+        description: "A beginner&#39;s guide to navigating the PTC Creo Toolkit API, essential resources, and first steps in automation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/creo-toolkit/";
+          
+        },
+      },{id: "post-why-isn-39-t-austenitic-stainless-steel-magnetic",
         
           title: "Why Isn&#39;t Austenitic Stainless Steel Magnetic?",
         
@@ -310,17 +321,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-placeholder-title",
-        
-          title: "Placeholder Title",
-        
-        description: "Content coming soon.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/creo-toolkit/";
           
         },
       },{id: "post-placeholder-title",
