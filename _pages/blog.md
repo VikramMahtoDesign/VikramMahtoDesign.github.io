@@ -191,7 +191,7 @@ description: Thoughts on Engineering, Automation, and Life.
     <a href="{% post_url 2023-07-05-roarks-formulas %}" style="text-decoration: none;">
       <div class="blog-card">
         <div class="blog-img-container">
-           <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=600&q=80" alt="Formulas">
+           <img src="{{ '/assets/img/roarks-formulas/preview.jpg' | relative_url }}" alt="Formulas">
         </div>
         <div class="blog-body">
           <span class="blog-category">Validation</span>
