@@ -244,7 +244,7 @@ description: Thoughts on Engineering, Automation, and Life.
         <div class="blog-body">
           <span class="blog-category">Automation</span>
           <h3 class="blog-title">Getting Started with Creo Toolkit</h3>
-          <span class="blog-date">Recent Post</span>
+          <span class="blog-date">Archive</span>
           <span class="blog-link">Read Article <i class="fas fa-arrow-right"></i></span>
         </div>
       </div>
