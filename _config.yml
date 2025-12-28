@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: mechanical design, engineer, ansys, fea, portfolio, creo
 lang: en
-icon: assets/img/favicon.ico
+icon: favicon.ico
 
 url: "https://vikrammahtodesign.github.io"
 baseurl: ""
