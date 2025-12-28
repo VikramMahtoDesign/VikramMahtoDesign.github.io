@@ -26,7 +26,7 @@ footer_fixed: true
 max_width: 930px
 
 # -----------------------------------------------------------------------------
-# Navigation Menu (Matches your _pages folder)
+# Navigation Menu
 # -----------------------------------------------------------------------------
 header_pages:
   - about.md
@@ -36,7 +36,7 @@ header_pages:
   - learning.md
 
 # -----------------------------------------------------------------------------
-# Features & Analytics
+# Features
 # -----------------------------------------------------------------------------
 serve_og_meta: false
 serve_schema_org: false
@@ -61,7 +61,7 @@ collections:
     output: true
 
 # -----------------------------------------------------------------------------
-# Jekyll & Markdown Settings
+# Jekyll Settings
 # -----------------------------------------------------------------------------
 markdown: kramdown
 highlighter: rouge
@@ -123,7 +123,7 @@ sass:
   style: compressed
 
 # -----------------------------------------------------------------------------
-# Image & Performance
+# Image Settings
 # -----------------------------------------------------------------------------
 imagemagick:
   enabled: true
@@ -185,7 +185,7 @@ jsonresume:
   - references
 
 # -----------------------------------------------------------------------------
-# Required Libraries (Essential for theme to work)
+# Libraries
 # -----------------------------------------------------------------------------
 third_party_libraries:
   download: false
@@ -212,3 +212,11 @@ third_party_libraries:
     url:
       css: "https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css"
       js: "https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
+  medium_zoom:
+    url:
+      js: "https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"
+  highlightjs:
+    url:
+      css:
+        light: "https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css"
+        dark: "https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css"
